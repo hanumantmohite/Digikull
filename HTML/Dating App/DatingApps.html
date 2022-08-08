@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dating.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Your General Details</legend><br>
+        <label for="name">Name: </label><br>
+        <input type="text" name="name" >
+        <br><br>
+        <label for="gender">Gender: </label><br>
+        <input type="radio" name="gender" value="male" > Male
+        <input type="radio" name="gender" value="female" > Female
+        <br><br>
+        <label for="Phone Number">Phone Number: </label><br>
+        <input type="number" name="Phone Number"   onkeypress="return isNumberKey(event)">
+        <br><br>
+        <label for="Email">Email: </label><br>
+        <input type="email" name="Email" ><br><br>
+    
+      </fieldset><br><fieldset>
+      <legend>Date of purposed outing</legend><br>
+      <label for="contact_method" id="method">Check all that apply to you: </label><br><br>
+      <input type="checkbox" name="method1" value="email">  I have tattoos and/or piercings<br>
+      <input type="checkbox" name="method1" value="email">  I am more than 2 years older than my daughter<br>
+      <input type="checkbox" name="method1" value="email">  I own a panel van or Ferrari<br>
+      <input type="checkbox" name="method1" value="email">  I work full-time<br>
+      <input type="checkbox" name="method1" value="email">  My parents are rich<br>
+      <input type="checkbox" name="method1" value="email">  Is the date at a private/public location<br>
+      <input type="checkbox" name="method1" value="email">  Education level completed<br><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>Essay section:</legend>
+        <br>
+        <p>Why do you want to date my daughter (50 words input)?</p>
+
+        <textarea rows="4" cols="50" name="Thoughts" placeholder="Type here" ></textarea>
+        <br><br>
+        <lable>An option to upload the bank statement :-)</lable><br><br>
+        <input type="file" id="myFile" name="Attach">
+  <button >Submit</button>
+</fieldset>
+    <input type="Submit" value="Submit" >
+  </form>
+      <script>
+        function isNumberKey(evt)
+        {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        
+            return true;
+        }
+        </script>
+</body>
+</html>

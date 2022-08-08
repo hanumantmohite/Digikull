@@ -1,0 +1,22 @@
+fieldset {
+    background: #FFFFE0;
+    border: 10px solid rgb(139, 32, 107);
+    margin-bottom: 10px;
+    width: 720px
+  }
+  
+  label {
+    width: 180px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top
+  }
+  body{
+      background-color:lightgrey
+  }
+  input[type=Submit]:hover {
+    background-color: #45a049;
+  }
+  button{
+    background-color: #b8ad18;
+  }

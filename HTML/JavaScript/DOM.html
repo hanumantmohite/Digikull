@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+<h1> Hello</h1>
+<h1> Hello</h1>
+    </div>
+    <div class="blue-white">
+        <h1> Hello</h1>
+        <h1> Hello</h1>
+        
+    </div>
+    <p>Hello World</p>
+    <script>
+const root = document.getElementById('root');
+document.getElementById("demo").onmouseover = function() {mouseOver()};
+
+
+root.addEventListener('mouseover', function handleMouseOver() {
+  root.style.backgroundColor = 'red';
+});
+
+blue.addEventListener('mouseover', function handleMouseOver() {
+  blue.style.backgroundColor = 'yellow';
+});
+
+    </script>
+</body>
+</html>

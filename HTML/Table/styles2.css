@@ -1,0 +1,37 @@
+#content{
+    background-color: yellow;
+width: 1200px;
+height: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#content2{
+
+    background-color: green;
+    width: 1200px;
+    height: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center2{
+    text-align: center;
+}
+.center3{
+    margin-left: auto;
+    margin-right: auto;
+}
+#table{
+    width: 500px;
+
+
+    
+        background-color: green
+
+}
+td ,th {
+padding: 30px;
+    border: 2px solid red;
+    text-align: center;
+    
+    color:yellow;
+}
+}

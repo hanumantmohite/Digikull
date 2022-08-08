@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-color: darkgray;
+}
+
+#id01::before {
+    content: 'FirstName :-';
+    color: aquamarine;
+}
+#id02::after{
+    content: 'Mumbai';
+    color: rgb(198, 240, 14);
+}
+
+h1{
+    animation-duration: 60s;
+    animation-name: style;
+    background-color: coral;
+}
+@keyframes style{
+    from{
+        margin-left: 100%;
+    }
+}
